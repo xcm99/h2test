@@ -2,8 +2,8 @@ name: test Renew
 
 on:
   workflow_dispatch:
-  #schedule:
-  # - cron: '0 */3 * * *'
+  schedule:
+   - cron: '45 3 */3 * *'
 
 jobs:
   run-renew:
